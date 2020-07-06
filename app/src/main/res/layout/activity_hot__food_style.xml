@@ -23,36 +23,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Japanese Food"
+        android:onClick="goToHotJapaneseActivity"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.39"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/WesternFoodButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Western Food"
+        android:onClick="goToHotWesternActivity"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.593"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/ChineseFoodButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chinese Food"
+        android:onClick="goToHot_Chinese"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794" />
+        app:layout_constraintVertical_bias="0.794"
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/or"

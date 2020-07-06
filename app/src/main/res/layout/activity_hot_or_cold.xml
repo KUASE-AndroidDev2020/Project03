@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Hot or Cold"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HotOrColdActivity">
@@ -35,18 +34,21 @@
         android:id="@+id/button1"
         android:layout_width="123dp"
         android:layout_height="59dp"
+        android:onClick="goToHot_Food_style"
         android:text="Hot"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471" />
+        app:layout_constraintVertical_bias="0.471"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="125dp"
         android:layout_height="63dp"
+        android:onClick="goToCold_food_style"
         android:text="Cold"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,5 +56,6 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.824" />
+        app:layout_constraintVertical_bias="0.824"
+        tools:ignore="OnClick" />
 </androidx.constraintlayout.widget.ConstraintLayout>
