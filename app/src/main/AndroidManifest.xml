@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="ExtraText">
-        <activity android:name=".HotWesternActivity"></activity>
+        <activity android:name=".Cold_Chinese"></activity>
+        <activity android:name=".HotWesternActivity" />
         <activity android:name=".Cold_Western" />
         <activity android:name=".HotOrColdActivity" />
         <activity android:name=".MainActivity">
