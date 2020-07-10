@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToHotOrColdActivity(View view) {
-        Intent tolog = new Intent(this, HotOrColdActivity.class);
+        Intent toHotOrColdActivity = new Intent(this, HotOrColdActivity.class);
+        startActivity(toHotOrColdActivity);
     }
 }
