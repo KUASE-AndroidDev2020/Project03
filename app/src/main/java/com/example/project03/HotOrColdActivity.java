@@ -14,12 +14,12 @@ public class HotOrColdActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hot_or_cold);
     }
 
-    public void goToHot_Food_style(View view) {
-        Intent toHot_Food_style = new Intent(this, Hot_Food_Style.class);
-        startActivity(toHot_Food_style);
+    public void goToHot_Food_Style(View view) {
+        Intent toHot_Food_Style = new Intent(this, Hot_Food_Style.class);
+        startActivity(toHot_Food_Style);
     }
 
-    public void goToCold_food_style(View view) {
+    public void goToCold_Food_Style(View view) {
         Intent toCold_Food_Style = new Intent(this, Cold_Food_Style.class);
         startActivity(toCold_Food_Style);
     }
