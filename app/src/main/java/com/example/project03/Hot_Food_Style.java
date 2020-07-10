@@ -11,7 +11,7 @@ public class Hot_Food_Style extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hot_food_style);
+        setContentView(R.layout.activity_hot__food_style);
     }
 
     public void goToHotJapaneseActivity(View view) {
