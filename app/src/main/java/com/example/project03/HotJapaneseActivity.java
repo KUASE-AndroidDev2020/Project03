@@ -15,10 +15,6 @@ public class HotJapaneseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hot_japanese);
     }
 
-    public void goToHot_Food_style(View view) {
-        Intent toHot_Food_style = new Intent(this, HotFoodStyle.class);
-        startActivity(toHot_Food_style);
-    }
 
     public void goToLink1(View view) {
         Intent toLink1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
