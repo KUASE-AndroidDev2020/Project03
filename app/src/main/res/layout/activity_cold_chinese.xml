@@ -29,7 +29,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/春雨サラダ" />
+        app:srcCompat="@drawable/harusamesarada" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/生春巻き" />
+        app:srcCompat="@drawable/namaharumaki" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -68,7 +68,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@drawable/杏仁豆腐" />
+        app:srcCompat="@drawable/annin" />
 
     <TextView
         android:id="@+id/textView8"
