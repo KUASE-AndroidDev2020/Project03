@@ -15,10 +15,6 @@ public class ColdJapaneseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cold_japanese);
     }
 
-    public void goToCold_food_style(View view) {
-        Intent toCold_food_style = new Intent(this, Cold_Food_Style.class);
-        startActivity(toCold_food_style);
-    }
 
     public void goToLink2(View view) {
         Intent toLink2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));

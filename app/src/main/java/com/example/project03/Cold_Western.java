@@ -15,10 +15,6 @@ public class Cold_Western extends AppCompatActivity {
         setContentView(R.layout.activity_cold_western);
     }
 
-    public void goToCold_food_style(View view) {
-        Intent toCold_food_style = new Intent(this, Cold_Food_Style.class);
-        startActivity(toCold_food_style);
-    }
 
     public void goToLink4(View view) {
         Intent toLink4 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
