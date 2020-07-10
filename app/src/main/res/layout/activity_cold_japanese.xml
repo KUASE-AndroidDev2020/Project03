@@ -110,7 +110,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.382"
-        app:srcCompat="@drawable/冷製うどん" />
+        app:srcCompat="@drawable/coldudon" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -134,5 +134,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.512"
-        app:srcCompat="@drawable/冷奴" />
+        app:srcCompat="@drawable/hiyayakko" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -121,7 +121,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.296"
-        app:srcCompat="@drawable/ハンバーグ" />
+        app:srcCompat="@drawable/hanbagu" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -133,7 +133,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.296"
-        app:srcCompat="@drawable/オムライス" />
+        app:srcCompat="@drawable/omuraice" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -145,7 +145,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.297"
-        app:srcCompat="@drawable/グラタン" />
+        app:srcCompat="@drawable/guratan" />
 
     <ImageView
         android:id="@+id/imageView22"
@@ -157,7 +157,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.465"
-        app:srcCompat="@drawable/ポトフ" />
+        app:srcCompat="@drawable/potofu" />
 
     <ImageView
         android:id="@+id/imageView23"
@@ -169,7 +169,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.462"
-        app:srcCompat="@drawable/ロールキャベツ" />
+        app:srcCompat="@drawable/rorukyabetsu" />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -181,5 +181,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.465"
-        app:srcCompat="@drawable/ビーフシチュー" />
+        app:srcCompat="@drawable/bifusityu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
