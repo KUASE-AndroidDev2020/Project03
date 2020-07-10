@@ -27,7 +27,7 @@
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/HotChineseView"
-        app:srcCompat="@drawable/麻婆豆腐" />
+        app:srcCompat="@drawable/mabodoufu" />
 
     <ImageView
         android:id="@+id/imageView8"
