@@ -15,14 +15,17 @@ public class Hot_Food_style extends AppCompatActivity {
     }
 
     public void goToHotJapaneseActivity(View view) {
-        Intent tolog =new Intent(this, HotJapaneseActivity.class);
+        Intent toHotJapanese =new Intent(this, HotJapaneseActivity.class);
+        startActivity(toHotJapanese);
     }
 
     public void goToHotWesternActivity(View view) {
-        Intent tolog =new Intent(this, HotWesternActivity.class);
+        Intent toHotWestern =new Intent(this, HotWesternActivity.class);
+        startActivity(toHotWestern);
     }
 
     public void goToHot_Chinese(View view) {
-        Intent tolog = new Intent(this,Hot_Chinese.class);
+        Intent toHot_Chinese = new Intent(this,Hot_Chinese.class);
+        startActivity(toHot_Chinese);
     }
 }
