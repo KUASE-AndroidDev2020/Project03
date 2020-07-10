@@ -16,7 +16,7 @@ public class Cold_Chinese extends AppCompatActivity {
     }
 
     public void goToCold_food_style(View view) {
-        Intent toCold_food_style = new Intent(this, cold_food_style.class);
+        Intent toCold_food_style = new Intent(this, Cold_Food_Style.class);
         startActivity(toCold_food_style);
     }
 

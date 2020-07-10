@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cold_food_style">
+    tools:context=".Cold_Food_Style">
 
     <TextView
         android:id="@+id/or4"
