@@ -15,7 +15,7 @@ public class HotOrColdActivity extends AppCompatActivity {
     }
 
     public void goToHot_Food_Style(View view) {
-        Intent toHot_Food_Style = new Intent(this, Hot_Food_Style.class);
+        Intent toHot_Food_Style = new Intent(this, HotFoodStyle.class);
         startActivity(toHot_Food_Style);
     }
 

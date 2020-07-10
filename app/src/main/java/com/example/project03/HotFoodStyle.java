@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Hot_Food_Style extends AppCompatActivity {
+public class HotFoodStyle extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
