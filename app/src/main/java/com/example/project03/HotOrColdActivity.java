@@ -20,7 +20,7 @@ public class HotOrColdActivity extends AppCompatActivity {
     }
 
     public void goToCold_food_style(View view) {
-        Intent tocold_food_style = new Intent(this, cold_food_style.class);
-        startActivity(tocold_food_style);
+        Intent toCold_food_style = new Intent(this, cold_food_style.class);
+        startActivity(toCold_food_style);
     }
 }
