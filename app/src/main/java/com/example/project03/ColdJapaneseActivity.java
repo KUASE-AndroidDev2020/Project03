@@ -20,4 +20,9 @@ public class ColdJapaneseActivity extends AppCompatActivity {
         Intent toLink2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
         startActivity(toLink2);
     }
+
+    public void goToColdFoodStyle(View view) {
+        Intent toColdFoodStyle = new Intent(this, ColdFoodStyle.class);
+        startActivity(toColdFoodStyle);
+    }
 }

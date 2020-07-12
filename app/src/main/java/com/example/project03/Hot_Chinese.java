@@ -19,4 +19,9 @@ public class Hot_Chinese extends AppCompatActivity {
         Intent toLink5 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
         startActivity(toLink5);
     }
+
+    public void goToHotFoodStyle(View view) {
+        Intent toHotFoodStyle = new Intent(this, HotFoodStyle.class);
+        startActivity(toHotFoodStyle);
+    }
 }

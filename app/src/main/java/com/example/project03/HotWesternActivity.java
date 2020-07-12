@@ -21,4 +21,9 @@ public class HotWesternActivity extends AppCompatActivity {
         Intent toLink3 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
         startActivity(toLink3);
     }
+
+    public void goToHotFoodStyle(View view) {
+        Intent toHotFoodStyle = new Intent(this, HotFoodStyle.class);
+        startActivity(toHotFoodStyle);
+    }
 }

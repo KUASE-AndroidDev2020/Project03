@@ -20,4 +20,9 @@ public class Cold_Chinese extends AppCompatActivity {
         Intent toLink6 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
         startActivity(toLink6);
     }
+
+    public void goToColdFoodStyle(View view) {
+        Intent toColdFoodStyle =new Intent(this, ColdFoodStyle.class);
+        startActivity(toColdFoodStyle);
+    }
 }
