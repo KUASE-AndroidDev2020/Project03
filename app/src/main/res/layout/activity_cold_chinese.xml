@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5CAC3"
+    android:background="#F8BFBF"
     tools:context=".Cold_Chinese">
 
     <TextView
@@ -12,13 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cold Chinese Food"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#3A86FF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#5A84F8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.120000005" />
+        app:layout_constraintVertical_bias="0.156" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -102,7 +103,7 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#8D775D"
+        android:background="#AFA1A1"
         android:onClick="goToColdFoodStyle"
         android:text="Back"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -118,7 +119,7 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#8D775D"
+        android:background="#AFA1A1"
         android:onClick="goToLink6"
         android:text="Click Here"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"

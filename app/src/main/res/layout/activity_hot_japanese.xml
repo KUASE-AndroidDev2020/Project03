@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C5E5FF"
     tools:context=".HotJapaneseActivity">
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="312dp"
-        android:layout_height="40dp"
+        android:layout_width="310dp"
+        android:layout_height="51dp"
         android:text="Hot Japanese food"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F44242"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.123" />
 
     <TextView
         android:id="@+id/text2"
@@ -88,9 +90,11 @@
         android:id="@+id/button"
         android:layout_width="124dp"
         android:layout_height="56dp"
+        android:background="#AFA1A1"
         android:onClick="goToLink1"
         android:text="Click here"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.766"
@@ -102,9 +106,11 @@
         android:id="@+id/button1"
         android:layout_width="101dp"
         android:layout_height="57dp"
-        android:text="Back"
+        android:background="#AFA1A1"
         android:onClick="goToHotFoodStyle"
+        android:text="Back"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.219"
