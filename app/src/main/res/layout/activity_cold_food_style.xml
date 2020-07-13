@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FEC9F1"
     tools:context=".ColdFoodStyle">
 
     <TextView
@@ -12,24 +13,28 @@
         android:layout_height="wrap_content"
         android:text="What is your mood today?"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#8338EC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13999999" />
+        app:layout_constraintVertical_bias="0.16000003" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#3AACF3"
         android:onClick="goToColdJapaneseActivity"
+        android:shadowColor="#FFFFFF"
         android:text="Japanese Food"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.35000002" />
 
     <TextView
         android:id="@+id/textView15"
@@ -38,6 +43,7 @@
         android:layout_marginTop="30dp"
         android:text="or"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#8338EC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
@@ -47,9 +53,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Western Food"
+        android:background="#3AACF3"
         android:onClick="goToCold_Western"
+        android:text="Western Food"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
@@ -61,6 +69,7 @@
         android:layout_marginTop="30dp"
         android:text="or"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#8338EC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
@@ -70,9 +79,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Chinese Food"
+        android:background="#3AACF3"
         android:onClick="goToCold_Chinese"
+        android:text="Chinese Food"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
