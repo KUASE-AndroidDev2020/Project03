@@ -14,14 +14,14 @@
         android:fontFamily="sans-serif-black"
         android:text="Which do you eat?"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#F44CEE"
+        android:textColor="#A3927C"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintHorizontal_bias="0.593"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.275" />
+        app:layout_constraintVertical_bias="0.292" />
 
     <LinearLayout
         android:layout_width="373dp"
