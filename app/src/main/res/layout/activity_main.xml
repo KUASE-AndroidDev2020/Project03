@@ -4,8 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CAECF6"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/titleback"
+        android:layout_width="405dp"
+        android:layout_height="282dp"
+        android:background="#F8D7E2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/text"
@@ -13,57 +25,79 @@
         android:layout_height="68dp"
         android:text="Today's menu is ..."
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#F18016"
+        android:textColor="#807261"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.236" />
+        app:layout_constraintVertical_bias="0.304" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="126dp"
-        android:layout_height="60dp"
-        android:background="#608FF4"
-        android:onClick="goToHotOrColdActivity"
-        android:text="Lunch"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="336dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:ignore="OnClick" />
+        app:layout_constraintTop_toBottomOf="@+id/titleback"
+        app:layout_constraintVertical_bias="0.371">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="126dp"
-        android:layout_height="60dp"
-        android:background="#608FF4"
-        android:onClick="goToHotOrColdActivity"
-        android:text="Dinner"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.822"
-        tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="#46A9F8"
+            android:fontFamily="@font/aclonica"
+            android:text="Breakfast"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="71dp"
-        android:layout_height="75dp"
-        android:text="or"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="160dp"
+            android:fontFamily="monospace"
+            android:text="or"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="#F4A93B"
+            android:fontFamily="@font/aclonica"
+            android:onClick="goToHotOrColdActivity"
+            android:text="Lunch"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:fontFamily="monospace"
+            android:text="or"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="#1EA195"
+            android:fontFamily="@font/aclonica"
+            android:onClick="goToHotOrColdActivity"
+            android:text="Dinner"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
