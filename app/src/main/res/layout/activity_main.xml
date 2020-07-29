@@ -52,6 +52,7 @@
             android:background="#46A9F8"
             android:fontFamily="@font/aclonica"
             android:text="Breakfast"
+            android:onClick="goToBreakfastActivity"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF" />
 

@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent toHotOrColdActivity = new Intent(this, HotOrColdActivity.class);
         startActivity(toHotOrColdActivity);
     }
+
+    public void goToBreakfastActivity(View view) {
+        Intent toBreakfastActivity =new Intent(this, BreakfastActivity.class);
+        startActivity(toBreakfastActivity);
+    }
 }
