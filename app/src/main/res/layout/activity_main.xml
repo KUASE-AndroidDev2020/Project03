@@ -35,6 +35,7 @@
         app:layout_constraintVertical_bias="0.304" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="387dp"
         android:layout_height="336dp"
         android:orientation="vertical"
@@ -51,7 +52,7 @@
             android:background="#46A9F8"
             android:fontFamily="@font/aclonica"
             android:text="Breakfast"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF" />
 
         <TextView
@@ -72,7 +73,7 @@
             android:fontFamily="@font/aclonica"
             android:onClick="goToHotOrColdActivity"
             android:text="Lunch"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF"
             tools:ignore="OnClick" />
 
@@ -94,10 +95,22 @@
             android:fontFamily="@font/aclonica"
             android:onClick="goToHotOrColdActivity"
             android:text="Dinner"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF"
             tools:ignore="OnClick" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="140dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
