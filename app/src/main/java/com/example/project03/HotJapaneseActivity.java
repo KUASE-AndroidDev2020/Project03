@@ -17,7 +17,7 @@ public class HotJapaneseActivity extends AppCompatActivity {
 
 
     public void goToLink1(View view) {
-        Intent toLink1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
+        Intent toLink1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://delishkitchen.tv/"));
         startActivity(toLink1);
     }
 

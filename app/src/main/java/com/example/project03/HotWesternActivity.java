@@ -18,7 +18,7 @@ public class HotWesternActivity extends AppCompatActivity {
 
 
     public void goToLink3(View view) {
-        Intent toLink3 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
+        Intent toLink3 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://delishkitchen.tv/"));
         startActivity(toLink3);
     }
 

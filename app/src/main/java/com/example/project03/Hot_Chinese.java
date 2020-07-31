@@ -16,7 +16,7 @@ public class Hot_Chinese extends AppCompatActivity {
     }
 
     public void goToLink5(View view) {
-        Intent toLink5 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
+        Intent toLink5 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://delishkitchen.tv/"));
         startActivity(toLink5);
     }
 
