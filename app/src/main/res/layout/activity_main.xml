@@ -134,6 +134,7 @@
         android:layout_width="91dp"
         android:layout_height="80dp"
         android:background="#FFFFFF"
+        android:onClick="goToLink7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.993"
