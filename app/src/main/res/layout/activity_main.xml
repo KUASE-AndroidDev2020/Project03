@@ -9,8 +9,8 @@
 
     <View
         android:id="@+id/titleback"
-        android:layout_width="414dp"
-        android:layout_height="263dp"
+        android:layout_width="404dp"
+        android:layout_height="234dp"
         android:background="#F8D7E2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.248" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleback"
-        app:layout_constraintVertical_bias="0.371">
+        app:layout_constraintVertical_bias="0.304">
 
         <Button
             android:id="@+id/button11"
@@ -51,8 +51,8 @@
             android:layout_height="63dp"
             android:background="#46A9F8"
             android:fontFamily="@font/aclonica"
-            android:text="Breakfast"
             android:onClick="goToBreakfastActivity"
+            android:text="Breakfast"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF" />
 
@@ -111,7 +111,35 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129"
+        app:layout_constraintVertical_bias="0.081"
         app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="249dp"
+        android:layout_height="37dp"
+        android:fontFamily="casual"
+        android:text="Reserve restaurants ⇒"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@android:drawable/star_big_off" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
