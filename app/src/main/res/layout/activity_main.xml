@@ -10,7 +10,7 @@
     <View
         android:id="@+id/titleback"
         android:layout_width="411dp"
-        android:layout_height="233dp"
+        android:layout_height="210dp"
         android:background="#F8D7E2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,10 +29,9 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.19999999" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -43,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleback"
-        app:layout_constraintVertical_bias="0.304">
+        app:layout_constraintVertical_bias="0.100000024">
 
         <Button
             android:id="@+id/button11"
@@ -111,7 +110,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081"
+        app:layout_constraintVertical_bias="0.029"
         app:srcCompat="@android:drawable/ic_menu_edit" />
 
     <TextView
