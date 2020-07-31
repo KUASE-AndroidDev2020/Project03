@@ -17,7 +17,7 @@ public class Cold_Chinese extends AppCompatActivity {
 
 
     public void goToLink6(View view) {
-        Intent toLink6 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
+        Intent toLink6 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://delishkitchen.tv/"));
         startActivity(toLink6);
     }
 

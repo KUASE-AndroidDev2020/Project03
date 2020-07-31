@@ -17,7 +17,7 @@ public class Cold_Western extends AppCompatActivity {
 
 
     public void goToLink4(View view) {
-        Intent toLink4 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
+        Intent toLink4 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://delishkitchen.tv/"));
         startActivity(toLink4);
     }
 

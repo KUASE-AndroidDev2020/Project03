@@ -17,7 +17,7 @@ public class ColdJapaneseActivity extends AppCompatActivity {
 
 
     public void goToLink2(View view) {
-        Intent toLink2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://oceans-nadia.com/"));
+        Intent toLink2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://delishkitchen.tv/"));
         startActivity(toLink2);
     }
 
